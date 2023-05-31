@@ -1,24 +1,20 @@
-## Rock Paper Scissors
+## Gioco Rock Paper Scissors
 
-# Instructions
+Questo gioco di sasso carta e forbice è stato creato durante il coso
+100 Days of Pytho ideato da 'The App Brewery'
 
-Make a rock, paper, scissors game. 
+Il gioco prevede la possibilità di giocare contro il COM e di vincere
+al meglio delle 3
 
-Inside the `main.py` file, you'll find the ASCII art for the hand signals already saved to a corresponding variable: `rock`, `paper`, and `scissors`. This will make it easy to print them out to the console. 
+Il gioco è stato crato solo con l'utilizzo di cicli for ed if/else
 
-Start the game by asking the player:
+# Struttura
 
-*"What do you choose? Type 0 for Rock, 1 for Paper or 2 for Scissors."*
+Il gioco prevede un ciclo for che per tre volte ci fa sfidare il PC. Ad inizio ciclo ci chiede di inseire la nostra scelta: sasso, carta o forbice.
 
-From there you will need to figure out: 
-* How you will store the user's input.
-* How you will generate a random choice for the computer.
-* How you will compare the user's and the computer's choice to determine the winner (or a draw).
-* And also how you will give feedback to the player. 
+Per ogni possibile scelta lo script fa scegliere al PC la sua mossa. Con una serie di if/else il porgramma controlla se abbiamo vinto, perso o pareggiato.
 
-You can find the "official" rules of the game on [the World Rock Paper Scissors Association website.](https://wrpsa.com/the-official-rules-of-rock-paper-scissors/)
+Dopo aver giocato per 3 volte il programma controlla il punteggio finale e dichiara il vincitore. 
 
+Il programma si conclude.
 
-# Solution
-
-[https://replit.com/@appbrewery/rock-paper-scissors-end](https://replit.com/@appbrewery/rock-paper-scissors-end)
