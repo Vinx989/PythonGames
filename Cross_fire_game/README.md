@@ -1,4 +1,4 @@
-## Space Cross Fire  Game
+# Space Cross Fire  Game
 
 Lo scopo del gico è quello di superare una zona di guerra spaziale senza farsi colpire dal fuoco nemico. Il gioco preve il superamento di 10 livelli
 e per ogni livello superato aumenta la velocità dei proiettili. Questo gioco è stato creat utilizzando la libreria grafica turtle
@@ -13,7 +13,7 @@ ed è stato suddiviso in moduli
 Il gioco è suddiviso in moduli in modo da rendere più leggibile loscript. I moduli sono i seguenti:
 
 - ## main 
-  In questo modulo trovate il main loop while che garantisce il funzionamento del gioco fin tanto che non veniamo colpiti da un proiettile o non finiamo tutti i livelli
+  In questo modulo trovate il main loop while che garantisce il funzionamento del gioco fin tanto che non veniamo colpiti da un proiettile o non finiamo tutti i livelli. Nello script sono inizializzate i vari oggetti che serviranno. La prima parte stabilisce le dimensioni dello schermo su cui si giocherà
   
 - ## Player
   In questo modulo trovate tutti i comandi relativi al giocatore. Di base troviamo 3 metodi:
@@ -32,3 +32,16 @@ Il gioco è suddiviso in moduli in modo da rendere più leggibile loscript. I mo
       Fa muovere il proiettile
    - ### level_up
       Aumenta la velocità all'aumentare del livello
+      
+- ## scorebord
+  Questo modulo gestisce il livello del giocatore e stabilisce se vince o perde. Qui ci sono 4 metodi:
+  - ### game_over/victory
+      annuncia la vittoria del gioco o il 'game over'
+  - ### increase
+      Aumenta il livello da affrontare
+  - ### update_score
+      scrive il punteggio sullo schermo
+      
+# Commenti
+
+
