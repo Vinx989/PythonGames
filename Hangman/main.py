@@ -1,3 +1,9 @@
+'''
+Gioco dell'impiccato
+Script creato durante il corso 100 Days of Python by The AppBrewery
+Script creato da Vincenzo Bruno
+'''
+
 import hangman_words
 import random
 import hangman_art
