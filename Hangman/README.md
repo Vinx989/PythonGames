@@ -1,24 +1,27 @@
-## Rock Paper Scissors
+# Hangman Game
 
-# Instructions
+Il programma è stato prodotto durante il corso di 100 Days of Python ideato da 'The App Brewery'.
 
-Make a rock, paper, scissors game. 
+Il progetto ha lo scopo di replicare il gioco dell'impiccato con un massimo di sei errori possibili.
+Il programma è creato interamente con l'utilizzo di cicli while, for e if/elif/else
 
-Inside the `main.py` file, you'll find the ASCII art for the hand signals already saved to a corresponding variable: `rock`, `paper`, and `scissors`. This will make it easy to print them out to the console. 
+# Struttura
 
-Start the game by asking the player:
+- Tramite la funzionalità import richiamiamo sia il logo che le vite espresse in ASCII Art.
+- Scegliamo la parola da indovinare in modo random
+- Inizializziamo le vite a disposizione e visualizziamo quante lettere ci sono
+- ### ciclo while
+  - Inseriamo la lettera come input
+  - Controlliamo se abbiamo indovinato una lettera presente nella parola
+  - Controlla se abbiamo già provato questa lettera
+  - Se non la indoviniamo allora si perde una vita
+  - Se la indoviniamo stampa la lettera al posto giusto
+  - Il secondo controllo serve per vedere se abbiamo ancora vite o se abbiamo indovinato tutte le lettere nella parola
+  Al termine delle vite o se indoviniamo la parola il gioco temina
+   
 
-*"What do you choose? Type 0 for Rock, 1 for Paper or 2 for Scissors."*
+# Commenti
 
-From there you will need to figure out: 
-* How you will store the user's input.
-* How you will generate a random choice for the computer.
-* How you will compare the user's and the computer's choice to determine the winner (or a draw).
-* And also how you will give feedback to the player. 
-
-You can find the "official" rules of the game on [the World Rock Paper Scissors Association website.](https://wrpsa.com/the-official-rules-of-rock-paper-scissors/)
+I commenti sono inseriti prima di un singolo blocco di codice per descrivere le funzionalità del codice e prima di variabili o azioni chiavi.
 
 
-# Solution
-
-[https://replit.com/@appbrewery/rock-paper-scissors-end](https://replit.com/@appbrewery/rock-paper-scissors-end)
