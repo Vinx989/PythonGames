@@ -44,4 +44,6 @@ Il gioco è suddiviso in moduli in modo da rendere più leggibile loscript. I mo
       
 # Commenti
 
+I commenti sono inseriti prima di un singolo blocco di codice per descrivere le funzionalità del codice e prima di variabili o azioni chiavi.
+
 
